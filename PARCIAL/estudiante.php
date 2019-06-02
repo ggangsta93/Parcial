@@ -1,5 +1,5 @@
 <?php
-class Estudiante
+class Materia
 {
 
     public $materia = null;
@@ -16,7 +16,7 @@ class Estudiante
     
     public static function createFromArray($arr)
     {
-        $estudiante = new Estudiante( $arr["materia"],$arr["creditos"],$arr["semestre"],$arr["culminada"]);
+        $estudiante = new Materia( $arr["materia"],$arr["creditos"],$arr["semestre"],$arr["culminada"]);
         //$estudiante->setTexto($arr["texto"]);
         return $estudiante;
         

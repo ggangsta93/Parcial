@@ -1,0 +1,26 @@
+[
+  {"materia": "Calculo 1","creditos": 4,"semestre": 1,"culminada": false },
+  {"materia": "Lectura y Escritura","creditos": 2,"semestre": 1,"culminada": false},
+  {"materia": "Electiva FISH-1","creditos": 2,"semestre": 1,"culminada": false},
+  {"materia": "Introduccion a la Ingenieria de Sistemas","creditos": 1,"semestre": 1,"culminada": false},
+  {"materia": "Introduccion a la Informatica","creditos": 3,"semestre": 1,"culminada": false},
+  {"materia": "Lab. Introduccion a la Informatica","creditos": 2,"semestre": 1,"culminada": false},
+
+  {"materia": "Calculo II","creditos": 4,"semestre": 2,"culminada": false},
+  {"materia": "Algebra Lineal","creditos": 4,"semestre": 2,"culminada": false},
+  {"materia": "Mecanica","creditos": 3,"semestre": 2,"culminada": false},
+  {"materia": "Electiva FISH-2","creditos": 1,"semestre": 2,"culminada": false},
+  {"materia": "Lab. Mecanica","creditos": 1,"semestre": 2,"culminada": false},
+  {"materia": "Programacion Orientada a Objetos","creditos": 3,"semestre": 2,"culminada": false},
+  {"materia": "Lab. Programacion OO","creditos": 1,"semestre": 2,"culminada": false},
+
+  {"materia": "Calculo III","creditos": 4,"semestre": 3,"culminada": false},
+  {"materia": "Electromagnetismo","creditos": 3,"semestre": 3,"culminada": false},
+  {"materia": "Laboratorio de Electromagnetismo","creditos": 1,"semestre": 3,"culminada": false},
+  {"materia": "Electiva FISH-3","creditos": 2,"semestre": 3,"culminada": false},
+  {"materia": "Estructuras de Datos 1","creditos": 3,"semestre": 3,"culminada": false},
+  {"materia": "Lab. Estructuras de Datos 1","creditos": 1,"semestre": 3,"culminada": false},
+  {"materia": "Etica","creditos": 2,"semestre": 10,"culminada": false}
+
+  
+]
