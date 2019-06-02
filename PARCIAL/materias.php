@@ -17,9 +17,9 @@
                 </div>              
             </header>
             <nav id="menu">
-                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-html="true" title="Hola! Dale click a tu materia que ya tienes aprobada. ">
+            <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-html="true" title="Hola! Dale click a tus materias que ya tienes aprobadas. ">
                    Descripción  
-                </button>
+            </button>
             </nav>
             <section id="seccion">
             
@@ -47,7 +47,7 @@
                 $semestre = $c->getSemestre();
 
                 if($auxiliar == $semestre){                 
-                    echo('<div class="alert alert-primary" role="alert">'.$c->getMateria().'    Creditos: '.$c->getCreditos().'</div>');
+                    echo('<button type="button" class="btn btn-primary btn-lg btn-block">'.$c->getMateria().' Creditos: '.$c->getCreditos().'</button>');
                     if($auxc != null){
                         if($auxc->getSemestre() != $semestre){
                             echo('</div>');
@@ -59,12 +59,21 @@
                     echo ('<div class="container">');
                     echo('<h1>Semestre'.$semestre.'</h1>');
                     $auxiliar = $semestre;   
-                    echo('<div class="alert alert-dark" role="alert">'.$c->getMateria().'    Creditos: '.$c->getCreditos().'</div>');
+                    echo('<button type="button" class="btn btn-secondary btn-lg btn-block">'.$c->getMateria().' Creditos: '.$c->getCreditos().'</button>');
  
                 }     
                 echo "<br>";
             }
             ?>
+
+
+            
+            
+    
+
+
+
+
             
             </section>
             <ul id="columna">
